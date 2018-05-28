@@ -17,6 +17,9 @@
             </intent-filter>
         </activity>
 
+
+        <activity android:name=".AddTask"/>
+
         <receiver
             android:name=".MyReceiver"
             android:enabled="true"
