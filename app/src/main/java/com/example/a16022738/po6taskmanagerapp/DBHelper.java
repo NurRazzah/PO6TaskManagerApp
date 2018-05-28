@@ -63,7 +63,7 @@ public class DBHelper extends SQLiteOpenHelper {
         return tasks;
     }
 
-    public void insertTask(String name, String desc){
+    public void insertTask( String name, String desc){
         SQLiteDatabase dbase = this.getWritableDatabase();
         ContentValues values = new ContentValues();
         values.put(COLUMN_NAME, name);
